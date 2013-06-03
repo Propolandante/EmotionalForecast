@@ -31,7 +31,7 @@
                 SaveOption="SaveNone"
                 RunFromDir="%rw"
                 Deletable="0">
-                <Exec CmdLine='"%(SLICKEDIT_PYTHON_EXE)" %(SLICKEDIT_PYTHON_EXECUTE_ARGS) "%f" %~other'/>
+                <Exec CmdLine='"%(SLICKEDIT_PYTHON_EXE)" %(SLICKEDIT_PYTHON_EXECUTE_ARGS) C:\EmotionalForecast\stream.py %~other'/>
             </Target>
             <Target
                 Name="Debug"
